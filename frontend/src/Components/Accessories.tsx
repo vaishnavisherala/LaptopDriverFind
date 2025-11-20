@@ -13,7 +13,7 @@ export default function Accessories() {
     {
       title: "Batteries, Chargers & Adapters",
       price: "₹1,150",
-      img: "./src/images/image.png"
+      img: "public/images/image.png"
     },
     {
       title: "Gaming Accessories",

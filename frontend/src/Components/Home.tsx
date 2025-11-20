@@ -32,7 +32,7 @@ const Home: React.FC = () => {
         <div className="support-card">
           <div className="image-wrapper">
             <img
-            src="./src/images/image1.jpg"
+            src="/public/images/image1.jpg"
             alt="Printer Support"
             />
           </div>
