@@ -1,0 +1,112 @@
+.site-header {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+}
+
+.top-bar {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 12px 20px;
+}
+
+.brand .logo {
+  width: 50px;
+  height: 48px;
+  border-radius: 50%;
+  background: #0072ce;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: lowercase;
+}
+
+.search {
+  flex: 1 1 0;
+  display: flex;
+  justify-content: center;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  max-width: 700px;
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+  padding: 6px 8px;
+}
+
+.search-input {
+  flex: 1 1 auto;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  padding: 6px 8px;
+}
+
+.search-btn {
+  background: transparent;
+  border: none;
+  color: #444;
+  padding: 6px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.support {
+  white-space: nowrap;
+}
+
+.support-link {
+  color: #222;
+  text-decoration: none;
+  font-size: 14px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  font: inherit;
+}
+
+.nav-row {
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #ddd;
+  background: #fff;
+}
+
+.nav-links {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+  margin: 0;
+  padding: 12px 20px;
+  align-items: center;
+}
+
+.nav-links li a {
+  color: #444;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 6px 0;
+}
+
+.nav-links li a.active {
+  color: #0d6efd; /* laptop link blue */
+  font-weight: 600;
+}
+
+.nav-links li a.sale {
+  color: #e60023; /* sale red */
+  font-weight: 600;
+}
+
+@media (max-width: 800px) {
+  .search-form { width: 100%; }
+  .nav-links { gap: 12px; padding: 10px; overflow-x: auto; }
+}

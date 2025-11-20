@@ -1,0 +1,83 @@
+[
+  {
+    "id": "hp-display-001",
+    "company": "hp",
+    "model": "Pavilion 15",
+    "category": "display",
+    "title": "HP Pavilion 15 - Intel UHD Graphics Driver",
+    "version": "30.0.101.1190",
+    "os": "Windows 10 x64",
+    "releaseDate": "2023-07-10",
+    "downloadLink": "https://example.com/downloads/hp/pavilion15/display-driver.exe",
+    "notes": "Intel integrated graphics driver for Pavilion 15"
+  },
+  {
+    "id": "hp-display-001",
+    "company": "dell",
+    "model": "Pavilion 15",
+    "category": "display",
+    "title": "Dell XPS 13 - Realtek Display Driver",
+    "version": "30.0.101.1190",
+    "os": "Windows 10 x64",
+    "releaseDate": "2023-07-10",
+    "downloadLink": "https://example.com/downloads/hp/pavilion15/display-driver.exe",
+    "notes": "Intel integrated graphics driver for Pavilion 15"
+  },
+  {
+    "id": "hp-display-001",
+    "company": "hp",
+    "model": "Pavilion 15",
+    "category": "audio",
+    "title": "HP Pavilion 15 - Intel UHD Audio Driver",
+    "version": "30.0.101.1190",
+    "os": "Windows 10 x64",
+    "releaseDate": "2023-07-10",
+    "downloadLink": "https://example.com/downloads/hp/pavilion15/display-driver.exe",
+    "notes": "Intel integrated graphics driver for Pavilion 15"
+  },
+  {
+    "id": "dell-audio-001",
+    "company": "dell",
+    "model": "XPS 13",
+    "category": "audio",
+    "title": "Dell XPS 13 - Realtek Audio Driver",
+    "version": "6.0.1.8427",
+    "os": "Windows 11 x64",
+    "releaseDate": "2024-02-20",
+    "downloadLink": "https://example.com/downloads/dell/xps13/audio-driver.exe",
+    "notes": "Realtek audio package"
+  },
+  {
+    "id": "lenovo-printer-001",
+    "company": "lenovo",
+    "model": "ThinkPad T14",
+    "category": "printer",
+    "title": "Lenovo - Generic Printer Driver",
+    "version": "1.0.0",
+    "os": "Windows 10 x64",
+    "releaseDate": "2022-11-01",
+    "downloadLink": "https://example.com/downloads/lenovo/t14/printer-driver.exe"
+  },
+   {
+    "id": "lenovo-printer-001",
+    "company": "lenovo",
+    "model": "ThinkPad T14",
+    "category": "display",
+    "title": "Lenovo - Generic display Driver",
+    "version": "1.0.0",
+    "os": "Windows 10 x64",
+    "releaseDate": "2022-11-01",
+    "downloadLink": "https://example.com/downloads/lenovo/t14/printer-driver.exe"
+  },
+   {
+    "id": "lenovo-printer-001",
+    "company": "lenovo",
+    "model": "ThinkPad T14",
+    "category": "Network",
+    "title": "Lenovo - Generic network Driver",
+    "version": "1.0.0",
+    "os": "Windows 10 x64",
+    "releaseDate": "2022-11-01",
+    "downloadLink": "https://example.com/downloads/lenovo/t14/printer-driver.exe"
+  }
+]
